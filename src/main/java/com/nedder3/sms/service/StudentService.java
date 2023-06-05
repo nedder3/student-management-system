@@ -1,5 +1,9 @@
 package com.nedder3.sms.service;
 
-public interface StudentService {
+import java.util.List;
 
+import com.nedder3.sms.entity.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
 }
