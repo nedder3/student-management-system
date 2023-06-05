@@ -7,5 +7,5 @@ import com.nedder3.sms.entity.Student;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long>{
-
+	
 }
