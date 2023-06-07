@@ -30,7 +30,7 @@ public class StudentController {
 	public String createStudentForm(Model model) {
 		Student student = new Student();
 		model.addAttribute("student",student);
-		return "create student";}
+		return "create_student";}
 	
 	@PostMapping
 	public String saveStudent(@ModelAttribute("student")Student student) {
