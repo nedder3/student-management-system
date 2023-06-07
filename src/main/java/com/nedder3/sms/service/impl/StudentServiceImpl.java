@@ -26,6 +26,14 @@ public class StudentServiceImpl implements StudentService {
 		// TODO Auto-generated method stub
 		return studentRepository.findAll();
 	}
+
+
+
+	@Override
+	public Student saveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return studentRepository.save(student);
+	}
 	
 
 }
